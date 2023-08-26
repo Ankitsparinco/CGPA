@@ -6,9 +6,7 @@ st.set_page_config(
     page_icon="📊",
     layout="centered",
     initial_sidebar_state="auto",
-    menu_items={
-        "Get Help": "https://github.com/Siddhesh-Agarwal/CGPA-Calculator/discussions",
-        "Report a bug": "https://github.com/Siddhesh-Agarwal/CGPA-Calculator/issues/new",
+   
         "About": None,
     },
 )
@@ -98,7 +96,7 @@ if st.button("Calculate"):
     )
 
 
-st.markdown("Made with ❤️ by [Siddhesh Agarwal](https://github.com/Siddhesh-Agarwal)")
+st.markdown("Made with ❤️ by [Ankit Yadav](https://github.com/Ankitsparinco)")
 st.write(
     """
     <style>
